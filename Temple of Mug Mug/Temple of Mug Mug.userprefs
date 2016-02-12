@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DontDestroy.cs">
+    <Files>
+      <File FileName="Assets\Scripts\start_scenes.cs" Line="23" Column="3" />
+      <File FileName="Assets\Scripts\DontDestroy.cs" Line="8" Column="17" />
+      <File FileName="Assets\Scripts\UIManager.cs" Line="15" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
