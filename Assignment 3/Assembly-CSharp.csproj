@@ -48,6 +48,9 @@
      <Compile Include="Assets\Scripts\DoNotDestroy.cs" />
      <Compile Include="Assets\Scripts\MouseOver.cs" />
      <Compile Include="Assets\Scripts\UIController.cs" />
+     <Compile Include="Assets\Scripts\healthModified.cs" />
+     <Compile Include="Assets\Scripts\statsManager.cs" />
+     <Compile Include="Assets\Scripts\typeText.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Users/Bob/Desktop/Applications for Game Design/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
