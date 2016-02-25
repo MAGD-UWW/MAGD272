@@ -46,8 +46,16 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\Scripts\FlickeringLights.cs" />
+     <Compile Include="Assets\Scripts\InventoryUI.cs" />
+     <Compile Include="Assets\Scripts\MasterSceneManager.cs" />
+     <Compile Include="Assets\Scripts\SquareObjectRoom.cs" />
+     <Compile Include="Assets\Scripts\StartSceneManager.cs" />
+     <Compile Include="Assets\Scripts\StatManager.cs" />
+     <Compile Include="Assets\Scripts\TriangleObjectRoom.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
-     <Compile Include="Assets\Scripts\start_scenes.cs" />
+     <Compile Include="Assets\Scripts\t_scene6Manager.cs" />
+     <Compile Include="Assets\Scripts\textManager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Users/Bob/Desktop/Applications for Game Design/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
