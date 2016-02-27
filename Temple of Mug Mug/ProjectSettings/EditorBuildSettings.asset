@@ -53,3 +53,13 @@ EditorBuildSettings:
     path: Assets/Scenes/DiamondScenes/do_scene.unity
   - enabled: 1
     path: Assets/Scenes/DiamondScenes/d_death.unity
+  - enabled: 1
+    path: Assets/Scenes/CircleScenes/circle_scene.unity
+  - enabled: 1
+    path: Assets/Scenes/CircleScenes/c_scene1.unity
+  - enabled: 1
+    path: Assets/Scenes/CircleScenes/c_scene2.unity
+  - enabled: 1
+    path: Assets/Scenes/CircleScenes/c_death.unity
+  - enabled: 1
+    path: Assets/Scenes/CircleScenes/finish_scene.unity

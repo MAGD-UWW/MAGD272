@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\StatManager.cs" />
      <Compile Include="Assets\Scripts\TriangleObjectRoom.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
+     <Compile Include="Assets\Scripts\c_deathManager.cs" />
      <Compile Include="Assets\Scripts\t_scene6Manager.cs" />
      <Compile Include="Assets\Scripts\textManager.cs" />
  <Reference Include="UnityEngine.UI">

@@ -87,4 +87,21 @@ public class MasterSceneManager : MonoBehaviour {
 	public void diaDeathScene() {
 		SceneManager.LoadScene("d_death");
 	}
+
+	public void cirToCir1() {
+		SceneManager.LoadScene("c_scene1");
+	}
+
+	public void cir1ToCir2() {
+		if(StatManager.isSquareAcquired == true && StatManager.isDiamondAcquired == true && StatManager.isTriangleAcquired == true) {
+			SceneManager.LoadScene("c_scene2");
+		}
+		else {
+			SceneManager.LoadScene("c_death");
+		}
+	}
+
+	public void cir2ToFinal() {
+		SceneManager.LoadScene("finish_scene");
+	}
 }

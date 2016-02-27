@@ -38,4 +38,8 @@ public class StartSceneManager : MonoBehaviour {
 	public void DiamondScene() {
 		SceneManager.LoadScene("diamond_scene");
 	}
+
+	public void CircleScene() {
+		SceneManager.LoadScene("circle_scene");
+	}
 }

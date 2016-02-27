@@ -298,8 +298,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11435564, guid: 9ff34c51c06b05f4b9eaec9f94b021d3, type: 2}
       propertyPath: message
-      value: Welcome..... To the Temple of Mug Mug. Find the 3 pieces to escape. Choose
-        a shape to continue... Have fun!
+      value: Welcome back... Choose a new shape and continue on through the temple.
       objectReference: {fileID: 0}
     - target: {fileID: 22412230, guid: 9ff34c51c06b05f4b9eaec9f94b021d3, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -425,7 +424,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 751196019}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 805909287}
+        m_MethodName: CircleScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &751196019
