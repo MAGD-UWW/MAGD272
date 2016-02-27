@@ -4,14 +4,10 @@ using System.Collections;
 public class TriangleObjectRoom : MonoBehaviour {
 
 	void Start () {
-	
+		StatManager.isTriangleAcquired = true; 
 	}
 	
 
 	void Update () {
-	
-		if(textManager.isMessageDone == true) {
-			StatManager.isTriangleAcquired = true;
-		}
 	}
 }

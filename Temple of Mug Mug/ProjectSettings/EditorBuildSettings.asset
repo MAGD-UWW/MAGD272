@@ -37,3 +37,19 @@ EditorBuildSettings:
     path: Assets/Scenes/SquareScenes/s_scene4.unity
   - enabled: 1
     path: Assets/Scenes/SquareScenes/so_scene.unity
+  - enabled: 1
+    path: Assets/Scenes/start_scene2.unity
+  - enabled: 1
+    path: Assets/Scenes/DiamondScenes/diamond_scene.unity
+  - enabled: 1
+    path: Assets/Scenes/DiamondScenes/d_scene1.unity
+  - enabled: 1
+    path: Assets/Scenes/DiamondScenes/d_scene2.unity
+  - enabled: 1
+    path: Assets/Scenes/DiamondScenes/d_scene3.unity
+  - enabled: 1
+    path: Assets/Scenes/DiamondScenes/d_scene4.unity
+  - enabled: 1
+    path: Assets/Scenes/DiamondScenes/do_scene.unity
+  - enabled: 1
+    path: Assets/Scenes/DiamondScenes/d_death.unity

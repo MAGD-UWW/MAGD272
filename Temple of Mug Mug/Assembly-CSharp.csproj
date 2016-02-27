@@ -38,17 +38,19 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Users/Bob/Desktop/Applications for Game Design/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Users/Bob/Desktop/Applications for Game Design/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\DiamondObjectScene.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\FlickeringLights.cs" />
      <Compile Include="Assets\Scripts\InventoryUI.cs" />
      <Compile Include="Assets\Scripts\MasterSceneManager.cs" />
+     <Compile Include="Assets\Scripts\Shimmer.cs" />
      <Compile Include="Assets\Scripts\SquareObjectRoom.cs" />
      <Compile Include="Assets\Scripts\StartSceneManager.cs" />
      <Compile Include="Assets\Scripts\StatManager.cs" />
@@ -57,10 +59,10 @@
      <Compile Include="Assets\Scripts\t_scene6Manager.cs" />
      <Compile Include="Assets\Scripts\textManager.cs" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Bob/Desktop/Applications for Game Design/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Users/Bob/Desktop/Applications for Game Design/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

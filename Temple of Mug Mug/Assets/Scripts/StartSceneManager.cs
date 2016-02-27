@@ -9,6 +9,7 @@ public class StartSceneManager : MonoBehaviour {
 	public GameObject circleButton;
 	public GameObject diamondButton;
 
+
 	void Start () {
 
 	}
@@ -32,5 +33,9 @@ public class StartSceneManager : MonoBehaviour {
 
 	public void SquareScene() {
 		SceneManager.LoadScene("square_scene");
+	}
+
+	public void DiamondScene() {
+		SceneManager.LoadScene("diamond_scene");
 	}
 }

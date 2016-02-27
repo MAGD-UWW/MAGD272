@@ -5,14 +5,11 @@ public class SquareObjectRoom : MonoBehaviour {
 
 
 	void Start () {
-	
+		StatManager.isSquareAcquired = true;
 	}
 	
 
 	void Update () {
-	
-		if(textManager.isMessageDone == true) {
-			StatManager.isSquareAcquired = true;
-		}
+
 	}
 }

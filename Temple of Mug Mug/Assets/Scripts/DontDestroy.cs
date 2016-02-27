@@ -8,6 +8,8 @@ public class DontDestroy : MonoBehaviour {
 	 * 												
 	 */	
 	void Awake() {
+		if(gameObject != null) {
 		DontDestroyOnLoad(gameObject); //Will not destroy object when a new scene loads
+		}
 	}
 }
