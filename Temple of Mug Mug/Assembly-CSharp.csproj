@@ -47,8 +47,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\DiamondObjectScene.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\Scripts\EndSceneTransition.cs" />
      <Compile Include="Assets\Scripts\FlickeringLights.cs" />
      <Compile Include="Assets\Scripts\InventoryUI.cs" />
+     <Compile Include="Assets\Scripts\KnobManager.cs" />
      <Compile Include="Assets\Scripts\MasterSceneManager.cs" />
      <Compile Include="Assets\Scripts\Shimmer.cs" />
      <Compile Include="Assets\Scripts\SquareObjectRoom.cs" />

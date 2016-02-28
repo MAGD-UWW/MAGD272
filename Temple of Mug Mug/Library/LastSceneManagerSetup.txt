@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/DiamondScenes/d_scene3.unity
+- path: Assets/Scenes/DiamondScenes/diamond_scene.unity
   isLoaded: 1
   isActive: 1
