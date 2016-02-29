@@ -10,12 +10,14 @@ public class StartSceneManager : MonoBehaviour {
 	public GameObject diamondButton;
 
 
+
 	void Start () {
 
 	}
 	
 
 	void Update () {
+		
 		if(StatManager.isTriangleAcquired == true) {
 			triangleButton.SetActive(false);
 		}
@@ -25,7 +27,6 @@ public class StartSceneManager : MonoBehaviour {
 		if(StatManager.isDiamondAcquired == true) {
 			diamondButton.SetActive(false);
 		}
-	
 	}
 	public void TriangleScene() {
 		SceneManager.LoadScene("triangle_scene");

@@ -19,11 +19,20 @@ public class InventoryUI : MonoBehaviour {
 		if(StatManager.isTriangleAcquired == true) {
 			Triangle.SetActive(true);
 		}
+		else if(StatManager.isTriangleAcquired == false) {
+			Triangle.SetActive(false);
+		}
 		if(StatManager.isDiamondAcquired == true) {
 			Diamond.SetActive(true);
 		}
+		else if(StatManager.isDiamondAcquired == false) {
+			Diamond.SetActive(false);
+		}
 		if(StatManager.isSquareAcquired == true) {
 			Square.SetActive(true);
+		}
+		else if(StatManager.isSquareAcquired == false) {
+			Square.SetActive(false);
 		}
 	}
 }

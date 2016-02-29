@@ -4,6 +4,8 @@ using System.Collections;
 
 public class MasterSceneManager : MonoBehaviour {
 
+
+
 	public void triToTri1() {
 		SceneManager.LoadScene("t_scene1");
 	}

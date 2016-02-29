@@ -8,6 +8,8 @@ public class KnobManager : MonoBehaviour {
 	public Image knobTwo;
 	public Image knobThree;
 
+	public AudioSource rumbleSound;
+
 	public static bool isKnobOneCorrect = false;
 	public static bool isKnobTwoCorrect = false;
 	public static bool isKnobThreeCorrect = false;
@@ -49,6 +51,7 @@ public class KnobManager : MonoBehaviour {
 	public void rotateKnobOne() {
 		knobOne.transform.Rotate(new Vector3(0,0,-90));
 		knobOneCount++;
+		rumbleSound.Play();
 		if(knobOneCount == 4) {
 			knobOneCount = 0;
 		}
@@ -56,6 +59,7 @@ public class KnobManager : MonoBehaviour {
 	public void rotateKnobTwo() {
 		knobTwo.transform.Rotate(new Vector3(0,0,-90));
 		knobTwoCount++;
+		rumbleSound.Play();
 		if(knobTwoCount == 4) {
 			knobTwoCount = 0;
 		}
@@ -63,6 +67,7 @@ public class KnobManager : MonoBehaviour {
 	public void rotateKnobThree() {
 		knobThree.transform.Rotate(new Vector3(0,0,-90));
 		knobThreeCount++;
+		rumbleSound.Play();
 		if(knobThreeCount == 4) {
 			knobThreeCount = 0;
 		}
